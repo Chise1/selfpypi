@@ -63,4 +63,5 @@ mysqlclient
 uwsgi
 django-mama-cas
 django-oidc-provider
-fast-tmp
+fast-tmp==0.1.2
+django==2.2.18
