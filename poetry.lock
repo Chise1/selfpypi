@@ -1,0 +1,44 @@
+[[package]]
+name = "pip2pi"
+version = "0.8.1"
+description = "pip2pi builds a PyPI-compatible package repository from pip requirements"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "aliyun"
+
+[[package]]
+name = "pypiserver"
+version = "1.4.2"
+description = "A minimal PyPI server for use with pip/easy_install."
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+
+[package.extras]
+cache = ["watchdog"]
+passlib = ["passlib (>=1.6)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirrors.aliyun.com/pypi/simple"
+reference = "aliyun"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "c87ebcbe1de05460dddb4e4959be6a3e7663634d6d65af1b259251779f170bee"
+
+[metadata.files]
+pip2pi = [
+    {file = "pip2pi-0.8.1-py2.py3-none-any.whl", hash = "sha256:e80362053a68f627eea336deaefdc32fcae6aa69e8ea11a06734e2a7e07666b1"},
+    {file = "pip2pi-0.8.1.tar.gz", hash = "sha256:135426f29a61d79e65ce27cd8b0eb2d738baeb8a9fb688f7fceb4878af878981"},
+]
+pypiserver = [
+    {file = "pypiserver-1.4.2-py2.py3-none-any.whl", hash = "sha256:3f73f13250c5ded5cd2653da5221c4635d6a0b428d0cb6c935741b906786349e"},
+    {file = "pypiserver-1.4.2.zip", hash = "sha256:0bf2bc338519c2f767f4d577d9a16c79ea3083a1372049d70c05d053101a5e10"},
+]
