@@ -44,7 +44,6 @@ openpyxl
 pillow
 coreschema
 django-q
-mysqlclient
 djangorestframework-jwt
 django-debug-toolbar
 python3-saml
@@ -55,3 +54,10 @@ Pygments
 markdown
 PyYAML
 uritemplate
+tortoise-orm[accel]
+fastapi[all]
+uvicorn[standrad]
+arq
+rearq
+mysqlclient
+uwsgi
