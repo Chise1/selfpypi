@@ -61,3 +61,5 @@ arq
 rearq
 mysqlclient
 uwsgi
+django-mama-cas
+django-oidc-provider
